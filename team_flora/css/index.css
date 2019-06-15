@@ -1,0 +1,33 @@
+body {
+    
+    background-image: url('../images/backgroundflower.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+  }
+
+h1{
+    text-align: center;
+    color: purple;
+    padding-top: 4rem;
+
+}
+
+.form-signin {
+padding-top: 5rem;
+padding-left: 20rem;
+padding-right: 20rem;
+padding-bottom: 10rem;
+
+}
+
+
+.navbar-brand>img {
+    height: 30%;
+    width: 30%;
+    
+    
+    
+  }
