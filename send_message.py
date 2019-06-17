@@ -14,5 +14,5 @@ def send_message(email, message):
         "from": sender,
         "to": [email],
         "subject": "Greetings!",
-        "text": message
+        "text": "You have signed up to the Flora mailing list"
       })
