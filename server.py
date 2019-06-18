@@ -16,4 +16,6 @@ def send():
 
   return render_template("page1.html", email=form_data["email"])
 
+@app.route("/search", methods=["POST"])
+
 app.run()

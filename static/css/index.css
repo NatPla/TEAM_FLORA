@@ -31,3 +31,10 @@ padding-bottom: 10rem;
     
     
   }
+
+ img.lily {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ } 
