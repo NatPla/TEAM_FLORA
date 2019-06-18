@@ -16,4 +16,3 @@ def send():
 
   return render_template("page1.html")
 
-app.run()

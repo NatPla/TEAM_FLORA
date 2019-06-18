@@ -4,7 +4,7 @@ mail_configuration = dotenv_values()
 
 def send_message(email, message):
   mail_api_key= mail_configuration["MAILGUN_API_KEY"]
-  mail_domain = mail_configuration["MAILGUN_DOMAIN"]
+  mail_domain = mail_configuration["MAILGUN_API_DOMAIN"]
   sender = "Excited User <mailgun@{}>".format(mail_domain)
 
   return requests.post(
