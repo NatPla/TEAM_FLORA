@@ -14,5 +14,6 @@ def send():
 
   send_message(form_data["email"], form_data["password"])
 
-  return render_template("page1.html")
+  return render_template("page1.html", email=form_data["email"])
 
+app.run()
