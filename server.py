@@ -17,5 +17,10 @@ def send():
   return render_template("page1.html", email=form_data["email"])
 
 @app.route("/search", methods=["POST"])
+def search():
+  form_data = request.form
+  flower_being_searched_for = form_data["flower"]
+  
+  return render_template("flower.html")
 
 app.run()
